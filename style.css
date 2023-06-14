@@ -1,0 +1,368 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #f1fbff;
+}
+
+.section-padding {
+    padding: 20px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: #000;
+}
+.navbar-nav a:hover {
+    color: #debb0c;
+  }
+.w-100 {
+    height: 100vh;
+}
+
+.aboutus {
+    background-color: #84A7A1;
+}
+
+.events {
+    background-color: #F5B7B1;
+    color: black
+}
+.services .card-body i {
+    font-size: 30px;
+}
+.section-header {
+    background: linear-gradient(to right, #78b9bc, #00ccff);
+    color: whitesmoke;
+    padding: 30px 0;
+  }
+    
+.rates .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.30);
+    flex: 1;
+}
+
+.card-body p {
+    text-align: left;
+  }
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    flex: 1 0 300px; /* Adjust the width as needed */
+    margin: 10px;
+}
+
+#team {
+    margin-top: 20px;
+    background-color: #AED6F1;
+}
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .card-body {
+    text-align: center;
+}
+
+.team .card-body h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.team .card-body p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socials a {
+    margin: 0 5px;
+  }
+ 
+  .bg-dark {
+    background-color: gray;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* Button effects */
+  .btn-warning {
+    cursor: pointer;
+  }
+
+  .btn-warning:hover {
+    opacity: 1;
+    background-color: #84A7A1;
+  }
+
+  .btn-warning:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+/* Box effects */
+.card-body {
+    cursor: pointer;
+  }
+
+  .card-body:hover {
+    transform: translateY(10px);
+    transition: 1.5s;
+  }
+
+/* Weather */
+.weather {
+    margin-top: 50px;
+}
+
+/* Booking Form */
+.booking-form{
+    background-color: #84A7A1;
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
+#form{
+    height:450px;
+    width:100%;
+    
+}
+#first-group{
+    border:none;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-top: 20px;
+    position: relative;
+}
+#content{
+    border: 1px solid #fff;
+    margin:10px;
+    margin-left: 8px;
+    padding:5px;
+}
+#content #input-group{
+    border:none;
+    outline:none;
+    background: transparent;
+    margin-left:8px;
+    width:auto;
+    color:black;
+}
+::placeholder{
+    color:#fff;
+}
+#second-group{
+    border:none;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-top: 20px;
+    position: relative;
+}
+#submit-btn{
+    margin-top: 30px;
+    background: yellow;
+    color:black;
+    width:150px;
+    border:1px solid black;
+    border-radius: 10px;
+    outline:none;
+    padding:10px;
+    font-size: 15px;
+    opacity: 0.9;
+    position: relative;
+    right:    0;
+    bottom:   0;
+}
+/* Map */
+.maps {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Row maps and form */
+.column-form-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+  }
+  
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#form{
+    width: 100%;
+    padding: 10px;  
+}
+/* Responsive Style */
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+    .carousel-caption p {
+        width: 100%;
+    }
+    .form-map {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .booking-form{
+        height:450px;
+        width:40%;
+        
+    }
+    .maps {
+        width: 60%;
+        margin-top: 20px;
+    }
+    #content #input-group{
+        font-size: 11px;
+    }
+    #content{
+        width: 110%;
+    }
+    
+}
+@media only screen and (min-width: 992px) and (max-width:1600px) {
+    .form-map {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+    #content{
+        width: 110%;
+    }
+    .booking-form{
+        height:450px;
+        width:40%;
+        
+    }
+    .maps {
+        width: 60%;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    } 
+    .carousel-caption {
+        bottom: 125px;
+    }
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+    }
+    
+}
