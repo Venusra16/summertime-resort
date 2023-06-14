@@ -13,7 +13,7 @@ This is a website for Summertime Resort, a luxurious resort with a focus on rest
 
 To run the website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/summertime-resort.git`
+1. Clone the repository: `git clone https://github.com/Venusra16/summertime-resort.git`
 2. Navigate to the project directory: `cd summertime-resort`
 3. Open the `index.html` file in your web browser.
 
